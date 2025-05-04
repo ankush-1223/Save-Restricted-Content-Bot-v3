@@ -30,5 +30,5 @@ MASTER_KEY = os.getenv("MASTER_KEY", "") # for session encryption
 IV_KEY = os.getenv("IV_KEY", "") # for decryption
 YT_COOKIES = os.getenv("YT_COOKIES", YTUB_COOKIES)
 INSTA_COOKIES = os.getenv("INSTA_COOKIES", INST_COOKIES)
-FREEMIUM_LIMIT = int(os.getenv("FREEMIUM_LIMIT", "9999"))
+FREEMIUM_LIMIT = int(os.getenv("FREEMIUM_LIMIT", "99"))
 PREMIUM_LIMIT = int(os.getenv("PREMIUM_LIMIT", "9999"))
